@@ -1,0 +1,1 @@
+goose postgres "postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable&search_path=identity" -dir migrations/identity up 
